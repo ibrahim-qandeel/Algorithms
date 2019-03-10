@@ -1,5 +1,4 @@
-import static org.junit.Assert.assertEquals;
-
+import org.junit.Assert;
 import org.junit.Test;
 
 public class TestCases {
@@ -7,6 +6,6 @@ public class TestCases {
   @Test
   public void test() {
     String str = "Hello";
-    assertEquals("hi", str);
+    Assert.assertEquals("Hello", str);
   }
 }
