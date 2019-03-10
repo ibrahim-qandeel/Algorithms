@@ -1,4 +1,4 @@
-import learning.coding.algorithms.implementation.SelectionSort;
+import learning.coding.algorithms.implementation.sorting.SelectionSort;
 
 public class Main {
 

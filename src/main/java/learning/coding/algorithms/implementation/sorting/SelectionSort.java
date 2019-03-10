@@ -1,4 +1,4 @@
-package learning.coding.algorithms.implementation;
+package learning.coding.algorithms.implementation.sorting;
 
 public class SelectionSort {
 
