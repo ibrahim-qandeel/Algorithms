@@ -1,13 +1,16 @@
+import learning.coding.algorithms.implementation.sorting.BubbleSort;
 import learning.coding.algorithms.implementation.sorting.SelectionSort;
 
 public class Main {
 
   public static void main(String[] args) {
 
-    int[] data = {8, 6, 3, 5, 1};
+    int[] data = {5, 2, 3, 0};
     System.out.println("Hello World! Hello Algorithms!");
-
-    SelectionSort.sort(data);
+    printArray(data);
+    System.out.println();
+//    SelectionSort.sort(data);
+    BubbleSort.sort(data);
 
     printArray(data);
   }
